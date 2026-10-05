@@ -1,0 +1,227 @@
+{
+  "name": "pdfs",
+  "slug": "pdfs",
+  "rel": "",
+  "folders": [
+    {
+      "name": "Division",
+      "slug": "division",
+      "rel": "Division",
+      "folders": [],
+      "files": [
+        {
+          "name": "Arbeitsblatt 1 Aufgaben.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 1 Aufgaben.pdf",
+          "size": "54.1 KB"
+        },
+        {
+          "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 1 L\u00f6sungen.pdf",
+          "size": "54.4 KB"
+        },
+        {
+          "name": "Arbeitsblatt 2 Aufgaben.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 2 Aufgaben.pdf",
+          "size": "54.1 KB"
+        },
+        {
+          "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 2 L\u00f6sungen.pdf",
+          "size": "54.4 KB"
+        },
+        {
+          "name": "Arbeitsblatt 3 Aufgaben.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 3 Aufgaben.pdf",
+          "size": "54.1 KB"
+        },
+        {
+          "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 3 L\u00f6sungen.pdf",
+          "size": "54.4 KB"
+        },
+        {
+          "name": "Arbeitsblatt 4 Aufgaben.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 4 Aufgaben.pdf",
+          "size": "54.1 KB"
+        },
+        {
+          "name": "Arbeitsblatt 4 L\u00f6sungen.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 4 L\u00f6sungen.pdf",
+          "size": "54.4 KB"
+        },
+        {
+          "name": "Arbeitsblatt 5 Aufgaben.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 5 Aufgaben.pdf",
+          "size": "54.1 KB"
+        },
+        {
+          "name": "Arbeitsblatt 5 L\u00f6sungen.pdf",
+          "url": "pdfs/Division/Arbeitsblatt 5 L\u00f6sungen.pdf",
+          "size": "54.4 KB"
+        }
+      ],
+      "num_files": 10
+    },
+    {
+      "name": "Grundrechenarten",
+      "slug": "grundrechenarten",
+      "rel": "Grundrechenarten",
+      "folders": [
+        {
+          "name": "Addition",
+          "slug": "addition",
+          "rel": "Grundrechenarten/Addition",
+          "folders": [
+            {
+              "name": "0 bis 10",
+              "slug": "0 bis 10",
+              "rel": "Grundrechenarten/Addition/0 bis 10",
+              "folders": [],
+              "files": [
+                {
+                  "name": "Arbeitsblatt 1 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 1 Aufgaben.pdf",
+                  "size": "55.8 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 1 L\u00f6sungen.pdf",
+                  "size": "56.3 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 2 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 2 Aufgaben.pdf",
+                  "size": "55.9 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 2 L\u00f6sungen.pdf",
+                  "size": "56.3 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 3 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 3 Aufgaben.pdf",
+                  "size": "55.8 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 3 L\u00f6sungen.pdf",
+                  "size": "56.3 KB"
+                }
+              ],
+              "num_files": 6
+            }
+          ],
+          "files": [],
+          "num_files": 6
+        },
+        {
+          "name": "Gemischt",
+          "slug": "gemischt",
+          "rel": "Grundrechenarten/Gemischt",
+          "folders": [
+            {
+              "name": "0 bis 10",
+              "slug": "0 bis 10",
+              "rel": "Grundrechenarten/Gemischt/0 bis 10",
+              "folders": [],
+              "files": [
+                {
+                  "name": "Arbeitsblatt 1 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 1 Aufgaben.pdf",
+                  "size": "58.3 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 1 L\u00f6sungen.pdf",
+                  "size": "59.1 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 2 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 2 Aufgaben.pdf",
+                  "size": "58.2 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 2 L\u00f6sungen.pdf",
+                  "size": "59.1 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 3 Aufgaben.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 3 Aufgaben.pdf",
+                  "size": "58.3 KB"
+                },
+                {
+                  "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
+                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 3 L\u00f6sungen.pdf",
+                  "size": "59.1 KB"
+                }
+              ],
+              "num_files": 6
+            }
+          ],
+          "files": [],
+          "num_files": 6
+        }
+      ],
+      "files": [],
+      "num_files": 12
+    },
+    {
+      "name": "Multiplikation",
+      "slug": "multiplikation",
+      "rel": "Multiplikation",
+      "folders": [],
+      "files": [
+        {
+          "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 1 L\u00f6sungen.pdf",
+          "size": "54.3 KB"
+        },
+        {
+          "name": "Arbeitsblatt 2 Aufgaben.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 2 Aufgaben.pdf",
+          "size": "53.9 KB"
+        },
+        {
+          "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 2 L\u00f6sungen.pdf",
+          "size": "54.3 KB"
+        },
+        {
+          "name": "Arbeitsblatt 3 Aufgaben.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 3 Aufgaben.pdf",
+          "size": "53.9 KB"
+        },
+        {
+          "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 3 L\u00f6sungen.pdf",
+          "size": "54.3 KB"
+        },
+        {
+          "name": "Arbeitsblatt 4 Aufgaben.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 4 Aufgaben.pdf",
+          "size": "53.9 KB"
+        },
+        {
+          "name": "Arbeitsblatt 4 L\u00f6sungen.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 4 L\u00f6sungen.pdf",
+          "size": "54.3 KB"
+        },
+        {
+          "name": "Arbeitsblatt 5 Aufgaben.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 5 Aufgaben.pdf",
+          "size": "53.9 KB"
+        },
+        {
+          "name": "Arbeitsblatt 5 L\u00f6sungen.pdf",
+          "url": "pdfs/Multiplikation/Arbeitsblatt 5 L\u00f6sungen.pdf",
+          "size": "54.3 KB"
+        }
+      ],
+      "num_files": 9
+    }
+  ],
+  "files": [],
+  "num_files": 31
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathe Arbeitsblätter - Division</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         margin: 0; background: #f6f7f9; color: #1f2933; }
+  header.top { background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #fff;
+               padding: 2rem; text-align: center; }
+  header.top h1 { margin: 0 0 .4rem 0; }
+  header.top p  { margin: 0; opacity: .9; }
+  .header-link { display: block; color: #fff; text-decoration: none; }
+  .header-link:hover h1 { text-decoration: underline; }
+
+  /* ---------- navigation bar ---------- */
+  nav.main-nav { background: #fff; border-bottom: 1px solid #e5e7eb;
+                 position: sticky; top: 0; z-index: 50; }
+  .nav-toggle { display: none; }
+  ul.menu { list-style: none; margin: 0; padding: 0; display: flex;
+            flex-wrap: wrap; gap: .25rem; }
+  .menu > li { position: relative; }
+  .menu button.parent { background: none; border: none; cursor: pointer;
+    font: inherit; color: #1f2933; padding: .65rem 1rem; border-radius: 6px; }
+  .menu button.parent:hover { background: #eef2ff; }
+  .menu a.folder-link { background: none; text-decoration: none;
+    cursor: pointer; font: inherit; color: #1f2933;
+    display: inline-block;
+    padding: .65rem 1rem; border-radius: 6px; }
+  .menu a.folder-link:hover { background: #eef2ff; }
+  .caret { display: inline-block; font-size: .7em; opacity: .7; }
+  .menu li.open button.parent { color: #2563eb; }
+
+  /* dropdown / submenu boxes */
+  ul.dropdown { display: none; position: absolute; top: 100%; left: 0;
+    min-width: 230px; background: #fff; border: 1px solid #e5e7eb;
+    box-shadow: 0 6px 16px rgba(15, 23, 42, .14); list-style: none;
+    padding: .3rem .5rem; z-index: 60; }
+  .menu li:hover > ul.dropdown,
+  .menu li.open > ul.dropdown { display: block; }
+  ul.dropdown li { position: relative; }
+  ul.dropdown li:hover > ul.dropdown,
+  ul.dropdown li.open > ul.dropdown { display: block; left: 100%; top: -.25rem; }
+  ul.dropdown li { min-width: 220px; }
+  .dropdown a { display: block; padding: .45rem .8rem; font-size: .9rem;
+                color: #1f2933; text-decoration: none; border-radius: 5px; white-space: nowrap; }
+  .dropdown a:hover { background: #eef2ff; color: #2563eb; }
+  .dropdown button.parent { display: block; width: 100%; text-align: left; padding: .45rem .8rem; }
+  .dropdown .empty { display: block; padding: .45rem .8rem; color: #9aa4b2; font-style: italic; }
+
+  /* ---------- content ---------- */
+  main { max-width: 1000px; margin: 0 auto; padding: 2rem 1.5rem; }
+  section h2 { margin-top: 2.2rem; border-bottom: 2px solid #e5e7eb;
+               padding-bottom: .4rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+          gap: 1.1rem; }
+  .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px;
+          padding: 1rem 1.1rem; box-shadow: 0 2px 6px rgba(15,23,42,.06); }
+  .card h3 { margin: 0 0 .3rem 0; font-size: 1rem; overflow-wrap: anywhere; }
+  .card .meta { margin: 0 0 .8rem 0; color: #6b7686; font-size: .85rem; }
+  .btn { display: inline-block; background: #2563eb; color: #fff;
+         text-decoration: none; padding: .5rem 1rem; border-radius: 6px;
+         font-weight: 600; font-size: .9rem; }
+  .btn:hover { background: #1d4ed8; }
+  footer { text-align: center; color: #8a94a3; padding: 2rem 0; }
+
+  /* ---------- mobile ---------- */
+  @media (max-width: 860px) {
+    .nav-toggle { display: inline-block; background: #2563eb; color: #fff;
+      border: none; border-radius: 6px; padding: .5rem .9rem;
+      cursor: pointer; font: inherit; }
+    ul.menu { display: none; position: absolute; left: 0; top: 100%;
+              width: 100%; background: #fff; }
+    nav.main-nav.open ul.menu { display: block; }
+    .menu > li { display: block; width: 100%; }
+    ul.dropdown { position: static; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="header-link" href="../../index.html">
+    <h1>&#128196; Mathe Arbeitsblätter - Division</h1>
+    <p>Division</p>
+  </a>
+</header>
+
+<nav class="main-nav" aria-label="Documents">
+  <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false">&#9776; Menu</button>
+  <ul class="menu" id="menu">
+<li><a class="folder-link" href="../../index.html">&#8592;</a></li>
+  <li><a class="folder-link" href="../Division/index.html">Division</a></li>
+  <li class="has-sub"><a class="folder-link" href="../Grundrechenarten/index.html">Grundrechenarten <span class="caret">▾</span></a><ul class="dropdown">
+    <li class="has-sub"><a class="folder-link" href="../Grundrechenarten/Addition/index.html">Addition <span class="caret">▸</span></a><ul class="dropdown">
+      <li><a class="folder-link" href="../Grundrechenarten/Addition/0%20bis%2010/index.html">0 bis 10</a></li>
+      </ul></li>
+    <li class="has-sub"><a class="folder-link" href="../Grundrechenarten/Gemischt/index.html">Gemischt <span class="caret">▸</span></a><ul class="dropdown">
+      <li><a class="folder-link" href="../Grundrechenarten/Gemischt/0%20bis%2010/index.html">0 bis 10</a></li>
+      </ul></li>
+    </ul></li>
+  <li><a class="folder-link" href="../Multiplikation/index.html">Multiplikation</a></li>
+  </ul>
+</nav>
+
+<main>
+<section id="documents"><h2>Arbeitsblätter</h2><div class="grid">
+<article class="card"><h3>Arbeitsblatt 1 Aufgaben.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.1 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 1 Aufgaben.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 1 Lösungen.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.4 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 1 Lösungen.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 2 Aufgaben.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.1 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 2 Aufgaben.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 2 Lösungen.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.4 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 2 Lösungen.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 3 Aufgaben.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.1 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 3 Aufgaben.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 3 Lösungen.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.4 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 3 Lösungen.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 4 Aufgaben.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.1 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 4 Aufgaben.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 4 Lösungen.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.4 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 4 Lösungen.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 5 Aufgaben.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.1 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 5 Aufgaben.pdf" download>Download PDF</a></article>
+<article class="card"><h3>Arbeitsblatt 5 Lösungen.pdf</h3><p class="meta">Arbeitsblätter &middot; 54.4 KB</p><a class="btn" href="pdfs/Division/Arbeitsblatt 5 Lösungen.pdf" download>Download PDF</a></article>
+</div></section>
+</main>
+
+<footer>&copy; 2026 Tim Stanglow</footer>
+
+<script>
+  // Click-to-toggle (touch + keyboard), complements CSS :hover for mice.
+  const menuItems = document.querySelectorAll('li.has-sub');
+  function closeAll(except) {
+    menuItems.forEach(function (li) {
+      if (li === except) return;
+      li.classList.remove('open');
+      const b = li.querySelector(':scope > button.parent');
+      if (b) b.setAttribute('aria-expanded', 'false');
+    });
+  }
+  menuItems.forEach(function (li) {
+    const btn = li.querySelector(':scope > button.parent');
+    if (!btn) return;
+    btn.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      const willOpen = !li.classList.contains('open');
+      closeAll(li);
+      li.classList.toggle('open', willOpen);
+      btn.setAttribute('aria-expanded', String(willOpen));
+    });
+  });
+  document.addEventListener('click', function () { closeAll(null); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll(null);
+  });
+
+  // Mobile hamburger
+  const navEl = document.querySelector('nav.main-nav');
+  document.getElementById('navToggle').addEventListener('click', function (e) {
+    e.stopPropagation();
+    navEl.classList.toggle('open');
+    this.setAttribute('aria-expanded', String(navEl.classList.contains('open')));
+  });
+</script>
+</body>
+</html>
