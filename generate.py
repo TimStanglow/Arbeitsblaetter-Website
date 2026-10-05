@@ -200,7 +200,7 @@ __NAV__
 __SECTIONS__
 </main>
 
-<footer>&copy; __YEAR__ Tim Stanglow</footer>
+<footer>&copy; __YEAR__ Tim Stanglow __VERSION__</footer>
 
 <script>
   // Click-to-toggle (touch + keyboard), complements CSS :hover for mice.
@@ -305,6 +305,7 @@ def render_page(node: dict, static_elements: dict) -> str:
             .replace("__TITLE__", title)
             .replace("__TAGLINE__", tagline)
             .replace("__YEAR__", static_elements["__YEAR__"])
+            .replace("__VERSION__", static_elements["__VERSION__"])
             .replace("__SECTIONS__", build_page_content(node, depth)))
     return page
 
@@ -377,6 +378,7 @@ def main() -> None:
         "__TITLE__": esc(SITE_TITLE),
         "__TAGLINE__": esc(SITE_TAGLINE),
         "__YEAR__": str(date.today().year),
+        "__VERSION__": "v0.1.1",
         "navs": [build_nav(tree, i) for i in range(treeDepth)]
     }
 
