@@ -58,6 +58,7 @@ def scan(folder: str, rel: str) -> dict:
             node["files"].append({
                 "name": entry.name,
                 "url": "pdfs/" + child_rel,
+                "url_rel": entry.name,
                 "size": size,
             })
             node["num_files"] += 1
@@ -84,7 +85,7 @@ def section(node: dict) -> str:
             "<article class=\"card\">"
             f'<h3>{esc(f["name"])}</h3>'
             f'<p class="meta">{esc(trail)} &middot; {esc(f["size"])}</p>'
-            f'<a class="btn" href="{esc(f["url"])}" download>Download PDF</a>'
+            f'<a class="btn" href="{esc(f["url_rel"])}" download>Download PDF</a>'
             "</article>"
         )
     return (
