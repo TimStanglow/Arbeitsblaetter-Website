@@ -8,66 +8,37 @@
       "slug": "division",
       "rel": "Division",
       "folders": [],
-      "files": [
+      "files": [],
+      "filePairs": [
         {
-          "name": "Arbeitsblatt 1 Aufgaben.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 1 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 1 Aufgaben.pdf",
-          "size": "54.1 KB"
+          "name": "Arbeitsblatt 1 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 1 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 1 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 1 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-          "size": "54.4 KB"
+          "name": "Arbeitsblatt 2 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 2 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 2 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 2 Aufgaben.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 2 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 2 Aufgaben.pdf",
-          "size": "54.1 KB"
+          "name": "Arbeitsblatt 3 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 3 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 3 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "size": "54.4 KB"
+          "name": "Arbeitsblatt 4 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 4 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 4 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 3 Aufgaben.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 3 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 3 Aufgaben.pdf",
-          "size": "54.1 KB"
-        },
-        {
-          "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "size": "54.4 KB"
-        },
-        {
-          "name": "Arbeitsblatt 4 Aufgaben.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 4 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 4 Aufgaben.pdf",
-          "size": "54.1 KB"
-        },
-        {
-          "name": "Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "size": "54.4 KB"
-        },
-        {
-          "name": "Arbeitsblatt 5 Aufgaben.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 5 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 5 Aufgaben.pdf",
-          "size": "54.1 KB"
-        },
-        {
-          "name": "Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "url": "pdfs/Division/Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "size": "54.4 KB"
+          "name": "Arbeitsblatt 5 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 5 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 5 L\u00f6sungen.pdf"
         }
       ],
       "num_files": 10
@@ -87,48 +58,32 @@
               "slug": "0 bis 10",
               "rel": "Grundrechenarten/Addition/0 bis 10",
               "folders": [],
-              "files": [
+              "files": [],
+              "filePairs": [
                 {
-                  "name": "Arbeitsblatt 1 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 1 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 1 Aufgaben.pdf",
-                  "size": "55.8 KB"
+                  "name": "Arbeitsblatt 1 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 1 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 1 L\u00f6sungen.pdf"
                 },
                 {
-                  "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "size": "56.3 KB"
+                  "name": "Arbeitsblatt 2 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 2 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 2 L\u00f6sungen.pdf"
                 },
                 {
-                  "name": "Arbeitsblatt 2 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 2 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 2 Aufgaben.pdf",
-                  "size": "55.9 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "size": "56.3 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 3 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 3 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 3 Aufgaben.pdf",
-                  "size": "55.8 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Addition/0 bis 10/Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "size": "56.3 KB"
+                  "name": "Arbeitsblatt 3 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 3 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 3 L\u00f6sungen.pdf"
                 }
               ],
               "num_files": 6
             }
           ],
           "files": [],
+          "filePairs": [],
           "num_files": 6
         },
         {
@@ -141,52 +96,37 @@
               "slug": "0 bis 10",
               "rel": "Grundrechenarten/Gemischt/0 bis 10",
               "folders": [],
-              "files": [
+              "files": [],
+              "filePairs": [
                 {
-                  "name": "Arbeitsblatt 1 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 1 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 1 Aufgaben.pdf",
-                  "size": "58.3 KB"
+                  "name": "Arbeitsblatt 1 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 1 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 1 L\u00f6sungen.pdf"
                 },
                 {
-                  "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-                  "size": "59.1 KB"
+                  "name": "Arbeitsblatt 2 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 2 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 2 L\u00f6sungen.pdf"
                 },
                 {
-                  "name": "Arbeitsblatt 2 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 2 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 2 Aufgaben.pdf",
-                  "size": "58.2 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-                  "size": "59.1 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 3 Aufgaben.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 3 Aufgaben.pdf",
-                  "url_rel": "Arbeitsblatt 3 Aufgaben.pdf",
-                  "size": "58.3 KB"
-                },
-                {
-                  "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "url": "pdfs/Grundrechenarten/Gemischt/0 bis 10/Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "url_rel": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-                  "size": "59.1 KB"
+                  "name": "Arbeitsblatt 3 ",
+                  "advanced": true,
+                  "AufgabenURL": "Arbeitsblatt 3 Aufgaben.pdf",
+                  "L\u00f6sungenURL": "Arbeitsblatt 3 L\u00f6sungen.pdf"
                 }
               ],
               "num_files": 6
             }
           ],
           "files": [],
+          "filePairs": [],
           "num_files": 6
         }
       ],
       "files": [],
+      "filePairs": [],
       "num_files": 12
     },
     {
@@ -199,60 +139,40 @@
           "name": "Arbeitsblatt 1 L\u00f6sungen.pdf",
           "url": "pdfs/Multiplikation/Arbeitsblatt 1 L\u00f6sungen.pdf",
           "url_rel": "Arbeitsblatt 1 L\u00f6sungen.pdf",
-          "size": "54.3 KB"
+          "size": "54.3 KB",
+          "advanced": false
+        }
+      ],
+      "filePairs": [
+        {
+          "name": "Arbeitsblatt 2 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 2 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 2 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 2 Aufgaben.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 2 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 2 Aufgaben.pdf",
-          "size": "53.9 KB"
+          "name": "Arbeitsblatt 3 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 3 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 3 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 2 L\u00f6sungen.pdf",
-          "size": "54.3 KB"
+          "name": "Arbeitsblatt 4 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 4 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 4 L\u00f6sungen.pdf"
         },
         {
-          "name": "Arbeitsblatt 3 Aufgaben.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 3 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 3 Aufgaben.pdf",
-          "size": "53.9 KB"
-        },
-        {
-          "name": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 3 L\u00f6sungen.pdf",
-          "size": "54.3 KB"
-        },
-        {
-          "name": "Arbeitsblatt 4 Aufgaben.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 4 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 4 Aufgaben.pdf",
-          "size": "53.9 KB"
-        },
-        {
-          "name": "Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 4 L\u00f6sungen.pdf",
-          "size": "54.3 KB"
-        },
-        {
-          "name": "Arbeitsblatt 5 Aufgaben.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 5 Aufgaben.pdf",
-          "url_rel": "Arbeitsblatt 5 Aufgaben.pdf",
-          "size": "53.9 KB"
-        },
-        {
-          "name": "Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "url": "pdfs/Multiplikation/Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "url_rel": "Arbeitsblatt 5 L\u00f6sungen.pdf",
-          "size": "54.3 KB"
+          "name": "Arbeitsblatt 5 ",
+          "advanced": true,
+          "AufgabenURL": "Arbeitsblatt 5 Aufgaben.pdf",
+          "L\u00f6sungenURL": "Arbeitsblatt 5 L\u00f6sungen.pdf"
         }
       ],
       "num_files": 9
     }
   ],
   "files": [],
+  "filePairs": [],
   "num_files": 31
 }
