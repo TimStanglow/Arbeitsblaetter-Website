@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+
+# ---------------------------------------------------------------------------
+# The page template. __UPPER_CASE__ placeholders are replaced in main().
+# CSS braces are fine here because this is a plain string, not an f-string.
+# ---------------------------------------------------------------------------
+HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mathe Arbeitsblätter - 0 bis 10</title>
+<title>__TITLE__</title>
 <style>
   * { box-sizing: border-box; }
   body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -82,38 +87,24 @@
 </head>
 <body>
 <header class="top">
-  <a class="header-link" href="../../../../index.html">
-    <h1>&#128196; Mathe Arbeitsblätter - 0 bis 10</h1>
-    <p>Grundrechenarten/Addition/0 bis 10</p>
+  <a class="header-link" href="__HEADERLINK__">
+    <h1>&#128196; __TITLE__</h1>
+    <p>__TAGLINE__</p>
   </a>
 </header>
 
 <nav class="main-nav" aria-label="Documents">
   <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false">&#9776; Menu</button>
   <ul class="menu" id="menu">
-<li><a class="folder-link" href="../index.html">&#8592;</a></li>
-  <li><a class="folder-link" href="../../../Division/index.html">Division</a></li>
-  <li class="has-sub"><a class="folder-link" href="../../../Grundrechenarten/index.html">Grundrechenarten <span class="caret">▾</span></a><ul class="dropdown">
-    <li class="has-sub"><a class="folder-link" href="../../../Grundrechenarten/Addition/index.html">Addition <span class="caret">▸</span></a><ul class="dropdown">
-      <li><a class="folder-link" href="../../../Grundrechenarten/Addition/0%20bis%2010/index.html">0 bis 10</a></li>
-      </ul></li>
-    <li class="has-sub"><a class="folder-link" href="../../../Grundrechenarten/Gemischt/index.html">Gemischt <span class="caret">▸</span></a><ul class="dropdown">
-      <li><a class="folder-link" href="../../../Grundrechenarten/Gemischt/0%20bis%2010/index.html">0 bis 10</a></li>
-      </ul></li>
-    </ul></li>
-  <li><a class="folder-link" href="../../../Multiplikation/index.html">Multiplikation</a></li>
+__NAV__
   </ul>
 </nav>
 
 <main>
-<section id="0 bis 10"><h2>0 bis 10</h2><div class="grid">
-<article class="card"><h3>Arbeitsblatt 1 </h3><a class="btn" href="Arbeitsblatt 1 Aufgaben.pdf" download>⤓ Aufgaben</a><a class="btn" href="Arbeitsblatt 1 Lösungen.pdf" download>⤓ Lösungen</a></article>
-<article class="card"><h3>Arbeitsblatt 2 </h3><a class="btn" href="Arbeitsblatt 2 Aufgaben.pdf" download>⤓ Aufgaben</a><a class="btn" href="Arbeitsblatt 2 Lösungen.pdf" download>⤓ Lösungen</a></article>
-<article class="card"><h3>Arbeitsblatt 3 </h3><a class="btn" href="Arbeitsblatt 3 Aufgaben.pdf" download>⤓ Aufgaben</a><a class="btn" href="Arbeitsblatt 3 Lösungen.pdf" download>⤓ Lösungen</a></article>
-</div></section>
+__SECTIONS__
 </main>
 
-<footer>&copy; 2026 Tim Stanglow v0.1.2.0</footer>
+<footer>&copy; __YEAR__ Tim Stanglow __VERSION__</footer>
 
 <script>
   // Click-to-toggle (touch + keyboard), complements CSS :hover for mice.
@@ -152,3 +143,4 @@
 </script>
 </body>
 </html>
+"""
